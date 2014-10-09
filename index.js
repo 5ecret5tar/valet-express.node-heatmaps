@@ -386,6 +386,11 @@ Heatmap.prototype.drawAlpha = function (x, y, count, colorize) {
   }
 };
 
+// Make Canvas accessible
+Heatmap.prototype.getCanvas = function () {
+  return this.get('canvas');
+};
+
 // dataURL export
 Heatmap.prototype.getImageData = function () {
   return this.get('canvas').toDataURL();
