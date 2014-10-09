@@ -396,6 +396,11 @@ Heatmap.prototype.getImageBuffer = function () {
   return this.get('canvas').toBuffer();
 };
 
+// Export image to PNG Stream
+Heatmap.prototype.getPNGStream = function () {
+  return this.get('canvas').createPNGStream();
+};
+
 Heatmap.prototype.clear = function () {
   var me = this,
     w = me.get('width'),
