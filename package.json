@@ -1,13 +1,13 @@
 {
   "name": "heatmaps",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Library for node canvas based heatmaps",
   "main": "index.js",
   "directories": {
     "example": "example"
   },
   "dependencies": {
-    "canvas": "1.0.x"
+    "canvas": "1.2.3"
   },
   "devDependencies": {},
   "scripts": {},
