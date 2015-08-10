@@ -7,7 +7,7 @@
     "example": "example"
   },
   "dependencies": {
-    "canvas": "1.2.3"
+    "canvas": "1.2.7"
   },
   "devDependencies": {},
   "scripts": {},
